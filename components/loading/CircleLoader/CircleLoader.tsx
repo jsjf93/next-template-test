@@ -10,7 +10,6 @@ export type CircleLoaderProps = {
 };
 
 export default function CircleLoader(props: CircleLoaderProps) {
-  console.log(props);
   return (
     <motion.div
       style={styles.circle(props)}
